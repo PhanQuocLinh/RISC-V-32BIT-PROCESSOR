@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Files/CE409/Exercise/Processor/project_cpu/project_cpu.sim/sim_1/synth/timing/xsim/tb_cpu_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-311] analyzing module reg_nbit
+INFO: [VRFC 10-311] analyzing module riscv_cpu
+INFO: [VRFC 10-311] analyzing module glbl

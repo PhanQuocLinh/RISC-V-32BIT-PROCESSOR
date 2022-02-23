@@ -1,0 +1,694 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov 12 23:24:51 2021
+# Process ID: 1996
+# Current directory: D:/Files/CE409/Exercise/Processor/project_cpu/project_cpu.runs/synth_1
+# Command line: vivado.exe -log riscv_cpu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source riscv_cpu.tcl
+# Log file: D:/Files/CE409/Exercise/Processor/project_cpu/project_cpu.runs/synth_1/riscv_cpu.vds
+# Journal file: D:/Files/CE409/Exercise/Processor/project_cpu/project_cpu.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source riscv_cpu.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 354.895 ; gain = 62.773
+Command: synth_design -top riscv_cpu -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5248 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 564.438 ; gain = 185.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'riscv_cpu' [D:/Files/CE409/Exercise/Processor/riscv_cpu.sv:1]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'datapath' [D:/Files/CE409/Exercise/Processor/datapath.sv:1]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'reg_nbit' [D:/Files/CE409/Exercise/Processor/reg_nbit.sv:1]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_nbit' (1#1) [D:/Files/CE409/Exercise/Processor/reg_nbit.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'counter' [D:/Files/CE409/Exercise/Processor/counter.sv:1]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter' (2#1) [D:/Files/CE409/Exercise/Processor/counter.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'imem' [D:/Files/CE409/Exercise/Processor/imem.sv:1]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'imem' (3#1) [D:/Files/CE409/Exercise/Processor/imem.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [D:/Files/CE409/Exercise/Processor/regfile.sv:1]
+	Parameter nbit bound to: 32 - type: integer 
+	Parameter nreg bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (4#1) [D:/Files/CE409/Exercise/Processor/regfile.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [D:/Files/CE409/Exercise/Processor/ImmGen.sv:1]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (5#1) [D:/Files/CE409/Exercise/Processor/ImmGen.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'BranchComp' [D:/Files/CE409/Exercise/Processor/BranchComp.sv:1]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'BranchComp' (6#1) [D:/Files/CE409/Exercise/Processor/BranchComp.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/Files/CE409/Exercise/Processor/alu.sv:2]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'alu' (7#1) [D:/Files/CE409/Exercise/Processor/alu.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'dmem' [D:/Files/CE409/Exercise/Processor/dmem.sv:2]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dmem' (8#1) [D:/Files/CE409/Exercise/Processor/dmem.sv:2]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/datapath.sv:29]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (9#1) [D:/Files/CE409/Exercise/Processor/datapath.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'controller' [D:/Files/CE409/Exercise/Processor/controller.sv:12]
+	Parameter nbit bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:44]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:53]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:62]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:71]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:80]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:89]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:141]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:171]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:187]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:189]
+INFO: [Synth 8-226] default block is never used [D:/Files/CE409/Exercise/Processor/controller.sv:218]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (10#1) [D:/Files/CE409/Exercise/Processor/controller.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'riscv_cpu' (11#1) [D:/Files/CE409/Exercise/Processor/riscv_cpu.sv:1]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[31]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[29]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[28]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[27]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[26]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[25]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[24]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[23]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[22]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[21]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[20]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[19]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[18]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[17]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[16]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[15]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[11]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[10]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[9]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[8]
+WARNING: [Synth 8-3331] design controller has unconnected port inst[7]
+WARNING: [Synth 8-3331] design imem has unconnected port clk
+WARNING: [Synth 8-3331] design counter has unconnected port clk
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 695.258 ; gain = 316.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 695.258 ; gain = 316.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 695.258 ; gain = 316.520
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "out_Imem" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'PCSel_reg' [D:/Files/CE409/Exercise/Processor/controller.sv:25]
+WARNING: [Synth 8-327] inferring latch for variable 'RegWEn_reg' [D:/Files/CE409/Exercise/Processor/controller.sv:25]
+WARNING: [Synth 8-327] inferring latch for variable 'BrUn_reg' [D:/Files/CE409/Exercise/Processor/controller.sv:61]
+WARNING: [Synth 8-327] inferring latch for variable 'BSel_reg' [D:/Files/CE409/Exercise/Processor/controller.sv:28]
+WARNING: [Synth 8-327] inferring latch for variable 'ASel_reg' [D:/Files/CE409/Exercise/Processor/controller.sv:28]
+WARNING: [Synth 8-327] inferring latch for variable 'MemRW_reg' [D:/Files/CE409/Exercise/Processor/controller.sv:33]
+WARNING: [Synth 8-327] inferring latch for variable 'WBSel_reg' [D:/Files/CE409/Exercise/Processor/controller.sv:25]
+WARNING: [Synth 8-327] inferring latch for variable 'ImmSel_reg' [D:/Files/CE409/Exercise/Processor/controller.sv:25]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUSel_reg' [D:/Files/CE409/Exercise/Processor/controller.sv:29]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:39 ; elapsed = 00:01:33 . Memory (MB): peak = 1076.355 ; gain = 697.617
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |dmem__GB0     |           1|     44463|
+|2     |dmem__GB1     |           1|     13012|
+|3     |dmem__GB2     |           1|     15739|
+|4     |dmem__GB3     |           1|     19392|
+|5     |datapath__GC0 |           1|      7136|
+|6     |controller    |           1|       220|
++------+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                8 Bit    Registers := 256   
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   8 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 895   
+	   3 Input      8 Bit        Muxes := 104   
+	   4 Input      8 Bit        Muxes := 256   
+	   8 Input      4 Bit        Muxes := 2     
+	  10 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 8     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 938   
+	   3 Input      1 Bit        Muxes := 128   
+	   4 Input      1 Bit        Muxes := 257   
+	  10 Input      1 Bit        Muxes := 11    
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dmem 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 256   
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 895   
+	   3 Input      8 Bit        Muxes := 104   
+	   4 Input      8 Bit        Muxes := 256   
+	   3 Input      2 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 903   
+	   3 Input      1 Bit        Muxes := 128   
+	   4 Input      1 Bit        Muxes := 256   
+Module reg_nbit 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module imem 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 31    
+Module BranchComp 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+Module datapath 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 1     
+Module controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      4 Bit        Muxes := 2     
+	  10 Input      3 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  10 Input      1 Bit        Muxes := 11    
+	   6 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "out_Imem" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataA_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\regfile/DataB_reg[31] )
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][31]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][30]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][29]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][28]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][27]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][26]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][25]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][24]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][23]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][22]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][21]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][20]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][19]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][18]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][17]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][16]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][15]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][14]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][13]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][12]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][11]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][10]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][9]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][8]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][7]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][6]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][5]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][4]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][3]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][2]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][1]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[0][0]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][31]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][30]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][29]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][28]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][27]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][26]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][25]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][24]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][23]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][22]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][21]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][20]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][19]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][18]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][17]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][16]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][15]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'datapathi_4/regfile/R_reg[1][14]__0/Q' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+INFO: [Common 17-14] Message 'Synth 8-6859' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [D:/Files/CE409/Exercise/Processor/regfile.sv:15]
+INFO: [Common 17-14] Message 'Synth 8-6858' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controller/\ALUSel_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controller/\ALUSel_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controller/\ALUSel_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (controller/\ImmSel_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controller/\ImmSel_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controller/\ImmSel_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controller/ASel_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controller/PCSel_reg)
+WARNING: [Synth 8-3332] Sequential element (PCSel_reg) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (RegWEn_reg) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (BrUn_reg) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (BSel_reg) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (ASel_reg) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (MemRW_reg) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (WBSel_reg[1]) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (WBSel_reg[0]) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (ImmSel_reg[2]) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (ImmSel_reg[1]) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (ImmSel_reg[0]) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (ALUSel_reg[3]) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (ALUSel_reg[2]) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (ALUSel_reg[1]) is unused and will be removed from module controller.
+WARNING: [Synth 8-3332] Sequential element (ALUSel_reg[0]) is unused and will be removed from module controller.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pc/Q_reg[0] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:30 ; elapsed = 00:02:30 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |datapath__GC0 |           1|       154|
+|2     |controller    |           1|         2|
++------+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:30 ; elapsed = 00:02:30 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |datapath__GC0 |           1|       154|
+|2     |controller    |           1|         2|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:30 ; elapsed = 00:02:30 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    17|
+|3     |LUT1   |     2|
+|4     |LUT4   |     7|
+|5     |LUT5   |     5|
+|6     |LUT6   |    57|
+|7     |FDCE   |    31|
+|8     |IBUF   |     2|
+|9     |OBUF   |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+---------+------+
+|      |Instance      |Module   |Cells |
++------+--------------+---------+------+
+|1     |top           |         |   154|
+|2     |  datapath    |datapath |   119|
+|3     |    alu       |alu      |     1|
+|4     |    counter_4 |counter  |     8|
+|5     |    pc        |reg_nbit |   110|
++------+--------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1105.250 ; gain = 726.512
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 3072 critical warnings and 47 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1105.250 ; gain = 726.512
+Synthesis Optimization Complete : Time (s): cpu = 00:02:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1105.250 ; gain = 726.512
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1122.582 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+120 Infos, 47 Warnings, 200 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:43 ; elapsed = 00:02:44 . Memory (MB): peak = 1122.582 ; gain = 767.688
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1122.582 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Files/CE409/Exercise/Processor/project_cpu/project_cpu.runs/synth_1/riscv_cpu.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file riscv_cpu_utilization_synth.rpt -pb riscv_cpu_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 12 23:27:52 2021...

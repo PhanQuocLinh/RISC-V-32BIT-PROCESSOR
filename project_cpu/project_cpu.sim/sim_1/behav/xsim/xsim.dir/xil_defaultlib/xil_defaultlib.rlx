@@ -1,0 +1,23 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/Files/CE409/Exercise/Processor/BranchComp.sv,1636626229,systemVerilog,D:/Files/CE409/Exercise/Processor/ImmGen.sv;D:/Files/CE409/Exercise/Processor/add_4.sv;D:/Files/CE409/Exercise/Processor/alu.sv;D:/Files/CE409/Exercise/Processor/controller.sv;D:/Files/CE409/Exercise/Processor/datapath.sv;D:/Files/CE409/Exercise/Processor/dmem.sv;D:/Files/CE409/Exercise/Processor/imem.sv;D:/Files/CE409/Exercise/Processor/reg_nbit.sv;D:/Files/CE409/Exercise/Processor/regfile.sv;D:/Files/CE409/Exercise/Processor/riscv_cpu.sv;D:/Files/CE409/Exercise/Processor/test.sv;D:/Files/CE409/Exercise/Processor/yourcpu_io.vh;D:/Files/CE409/Exercise/Processor/yourcpu_test_top.sv,D:/Files/CE409/Exercise/Processor/ImmGen.sv,,$unit_BranchComp_sv;BranchComp,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/ImmGen.sv,1638274495,systemVerilog,,D:/Files/CE409/Exercise/Processor/test.sv,,ImmGen,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/Packet.sv,1638887662,verilog,,,D:/Files/CE409/Exercise/Processor/define_typedef.sv,,,,,,,,,
+D:/Files/CE409/Exercise/Processor/add_4.sv,1636808702,systemVerilog,,D:/Files/CE409/Exercise/Processor/alu.sv,,add_4,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/alu.sv,1636804626,systemVerilog,,D:/Files/CE409/Exercise/Processor/controller.sv,,alu,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/controller.sv,1638190735,systemVerilog,,D:/Files/CE409/Exercise/Processor/datapath.sv,D:/Files/CE409/Exercise/Processor/define_typedef.sv,controller,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/datapath.sv,1638208091,systemVerilog,,D:/Files/CE409/Exercise/Processor/dmem.sv,,datapath,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/define_typedef.sv,1638189244,verilog,,,,,,,,,,,,
+D:/Files/CE409/Exercise/Processor/dmem.sv,1638284622,systemVerilog,,D:/Files/CE409/Exercise/Processor/imem.sv,,dmem,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/imem.sv,1638207630,systemVerilog,,D:/Files/CE409/Exercise/Processor/reg_nbit.sv,,imem,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/project_cpu/project_cpu.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/Files/CE409/Exercise/Processor/project_cpu/project_cpu.srcs/sim_1/new/test.sv,1636634362,systemVerilog,,,,$unit_test_sv;test,,,,,,,,
+D:/Files/CE409/Exercise/Processor/reg_nbit.sv,1636722123,systemVerilog,,D:/Files/CE409/Exercise/Processor/regfile.sv,,reg_nbit,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/regfile.sv,1636770400,systemVerilog,,D:/Files/CE409/Exercise/Processor/riscv_cpu.sv,,regfile;tb_rf,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/riscv_cpu.sv,1638208148,systemVerilog,,D:/Files/CE409/Exercise/Processor/yourcpu_test_top.sv,,riscv_cpu,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/tb_cpu.sv,1636813921,systemVerilog,,,,tb_cpu,,,,,,,,
+D:/Files/CE409/Exercise/Processor/test.sv,1638884654,systemVerilog,,D:/Files/CE409/Exercise/Processor/add_4.sv,D:/Files/CE409/Exercise/Processor/yourcpu_io.vh;D:/Files/CE409/Exercise/Processor/Packet.sv;D:/Files/CE409/Exercise/Processor/define_typedef.sv,program_test,,,../../../../../,,,,,
+D:/Files/CE409/Exercise/Processor/yourcpu_io.vh,1638208424,verilog,,,,yourcpu_io,,,,,,,,
+D:/Files/CE409/Exercise/Processor/yourcpu_test_top.sv,1636876226,systemVerilog,,,D:/Files/CE409/Exercise/Processor/yourcpu_io.vh,yourcpu_test_top,,,../../../../../,,,,,

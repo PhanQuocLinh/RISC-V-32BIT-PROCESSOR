@@ -1,0 +1,370 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/19.1
+valu
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1636767093
+!i10b 1
+!s100 fC6imEeClmfYH^UHTAz:`1
+Id0G[Dh`237JVYbZo9`[6g1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu_sv_unit
+S1
+Z3 dD:/Files/CE409/Exercise/Processor
+w1636721111
+8D:/Files/CE409/Exercise/Processor/alu.sv
+FD:/Files/CE409/Exercise/Processor/alu.sv
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1636767093.000000
+!s107 D:/Files/CE409/Exercise/Processor/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/alu.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vBranchComp
+R0
+Z8 !s110 1636767094
+!i10b 1
+!s100 YNR1JUSLhcazM<R;EQe6i2
+IW<01XeKGbc9>OX49eeZ[G1
+R2
+!s105 BranchComp_sv_unit
+S1
+R3
+w1636626229
+8D:/Files/CE409/Exercise/Processor/BranchComp.sv
+FD:/Files/CE409/Exercise/Processor/BranchComp.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1636767094.000000
+!s107 D:/Files/CE409/Exercise/Processor/BranchComp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/BranchComp.sv|
+!i113 1
+R6
+R7
+n@branch@comp
+vcontroller
+R0
+DXx4 work 18 controller_sv_unit 0 22 B[5gS_QUZ6O;OYdE<7bf=2
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 7`WA4F<EM=`i6WJX4O@zZ1
+IcY[fzm0UJD3Na;Rc`:i4@3
+!s105 controller_sv_unit
+S1
+R3
+Z10 w1636729881
+Z11 8D:/Files/CE409/Exercise/Processor/controller.sv
+Z12 FD:/Files/CE409/Exercise/Processor/controller.sv
+L0 12
+R4
+R9
+Z13 !s107 D:/Files/CE409/Exercise/Processor/controller.sv|
+Z14 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/controller.sv|
+!i113 1
+R6
+R7
+Xcontroller_sv_unit
+R0
+VB[5gS_QUZ6O;OYdE<7bf=2
+r1
+!s85 0
+31
+!i10b 1
+!s100 5<`cFWz`V[mdmz?O;nZmA2
+IB[5gS_QUZ6O;OYdE<7bf=2
+!i103 1
+S1
+R3
+R10
+R11
+R12
+L0 1
+R4
+R9
+R13
+R14
+!i113 1
+R6
+R7
+vcounter
+R0
+R1
+!i10b 1
+!s100 hBhGfR=SV6e?=]MP8WHM33
+I:fMO_n<djSf:Y`V]d>z]]2
+R2
+!s105 counter_sv_unit
+S1
+R3
+w1636724878
+8D:/Files/CE409/Exercise/Processor/counter.sv
+FD:/Files/CE409/Exercise/Processor/counter.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Files/CE409/Exercise/Processor/counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/counter.sv|
+!i113 1
+R6
+R7
+vdatapath
+R0
+Z15 !s110 1636767095
+!i10b 1
+!s100 NH6Z:z:C_AQabIhgi7z^V1
+I?OlzN4GAiNLgjEk77jneJ1
+R2
+!s105 datapath_sv_unit
+S1
+R3
+w1636724738
+8D:/Files/CE409/Exercise/Processor/datapath.sv
+FD:/Files/CE409/Exercise/Processor/datapath.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z16 !s108 1636767095.000000
+!s107 D:/Files/CE409/Exercise/Processor/datapath.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/datapath.sv|
+!i113 1
+R6
+R7
+vdmem
+R0
+R1
+!i10b 1
+!s100 QS6^WIZ_]eWkBnA7^di?c0
+Ia]2al?@E1BRReo>jeZm`Y3
+R2
+!s105 dmem_sv_unit
+S1
+R3
+w1636720566
+Z17 8D:/Files/CE409/Exercise/Processor/dmem.sv
+Z18 FD:/Files/CE409/Exercise/Processor/dmem.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+Z19 !s107 D:/Files/CE409/Exercise/Processor/dmem.sv|
+Z20 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/dmem.sv|
+!i113 1
+R6
+R7
+Xdmem_sv_unit
+R0
+V44HEW[@IXOHVVMzVEY:e53
+r1
+!s85 0
+31
+!i10b 1
+!s100 81WkN:ak5X;Xb44oNLmc]1
+I44HEW[@IXOHVVMzVEY:e53
+!i103 1
+S1
+R3
+w1636383164
+R17
+R18
+L0 1
+R4
+!s108 1636383190.000000
+R19
+R20
+!i113 1
+R6
+R7
+vimem
+R0
+R8
+!i10b 1
+!s100 c<8APTO]ZldNII@00e3j70
+I?aVhR]nG^3MZe^B?UocdC0
+R2
+!s105 imem_sv_unit
+S1
+R3
+w1636731688
+8D:/Files/CE409/Exercise/Processor/imem.sv
+FD:/Files/CE409/Exercise/Processor/imem.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/CE409/Exercise/Processor/imem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/imem.sv|
+!i113 1
+R6
+R7
+vImmGen
+R0
+!s110 1636767125
+!i10b 1
+!s100 WXmi3oBDPQf@@]ACg1i;z1
+I20OeUg2GEZmzYkZU=I;6=0
+R2
+!s105 ImmGen_sv_unit
+S1
+R3
+w1636720870
+8D:/Files/CE409/Exercise/Processor/ImmGen.sv
+FD:/Files/CE409/Exercise/Processor/ImmGen.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1636767125.000000
+!s107 D:/Files/CE409/Exercise/Processor/ImmGen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/ImmGen.sv|
+!i113 1
+R6
+R7
+n@imm@gen
+vreg_nbit
+R0
+R8
+!i10b 1
+!s100 LNAh:ACg707`JTBY6DT^?0
+IUn6>m^M72k@dHbTmQEMS?0
+R2
+!s105 reg_nbit_sv_unit
+S1
+R3
+w1636722123
+8D:/Files/CE409/Exercise/Processor/reg_nbit.sv
+FD:/Files/CE409/Exercise/Processor/reg_nbit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/CE409/Exercise/Processor/reg_nbit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/reg_nbit.sv|
+!i113 1
+R6
+R7
+vregfile
+R0
+Z21 !s110 1636767521
+!i10b 1
+!s100 @MC;gEn]:AYbTMdgdkQ8?3
+I]5TSR;1PPl_ZI;_mfThIc3
+R2
+Z22 !s105 regfile_sv_unit
+S1
+R3
+Z23 w1636767473
+Z24 8D:/Files/CE409/Exercise/Processor/regfile.sv
+Z25 FD:/Files/CE409/Exercise/Processor/regfile.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z26 !s108 1636767521.000000
+Z27 !s107 D:/Files/CE409/Exercise/Processor/regfile.sv|
+Z28 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/regfile.sv|
+!i113 1
+R6
+R7
+vriscv_cpu
+R0
+R15
+!i10b 1
+!s100 Ti8H2b6gd2Z=bKoD9ZV9A3
+ISKdIcz_5KJ;PBDc?CT03]0
+R2
+!s105 riscv_cpu_sv_unit
+S1
+R3
+w1636721413
+8D:/Files/CE409/Exercise/Processor/riscv_cpu.sv
+FD:/Files/CE409/Exercise/Processor/riscv_cpu.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R16
+!s107 D:/Files/CE409/Exercise/Processor/riscv_cpu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/riscv_cpu.sv|
+!i113 1
+R6
+R7
+vtb_cpu
+R0
+R8
+!i10b 1
+!s100 aVV244?]3Ggh;kLU5=2:z2
+I=:PMg<K4ET`_1a?QGk8g90
+R2
+!s105 tb_cpu_sv_unit
+S1
+R3
+w1636736748
+8D:/Files/CE409/Exercise/Processor/tb_cpu.sv
+FD:/Files/CE409/Exercise/Processor/tb_cpu.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/CE409/Exercise/Processor/tb_cpu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Files/CE409/Exercise/Processor/tb_cpu.sv|
+!i113 1
+R6
+R7
+vtb_rf
+R0
+R21
+!i10b 1
+!s100 dga348TNF;>9TL;@=CAAP2
+IG0lOVg2^nXgY7OAfj367n3
+R2
+R22
+S1
+R3
+R23
+R24
+R25
+L0 34
+R4
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R6
+R7

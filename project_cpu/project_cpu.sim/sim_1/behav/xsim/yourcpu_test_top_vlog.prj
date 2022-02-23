@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../" \
+"../../../../../BranchComp.sv" \
+"../../../../../ImmGen.sv" \
+"../../../../../test.sv" \
+"../../../../../add_4.sv" \
+"../../../../../alu.sv" \
+"../../../../../controller.sv" \
+"../../../../../datapath.sv" \
+"../../../../../dmem.sv" \
+"../../../../../imem.sv" \
+"../../../../../reg_nbit.sv" \
+"../../../../../regfile.sv" \
+"../../../../../riscv_cpu.sv" \
+"../../../../../yourcpu_test_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

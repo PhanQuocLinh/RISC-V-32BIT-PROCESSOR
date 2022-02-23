@@ -1,0 +1,6 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/Files/CE409/Exercise/Processor/project_cpu/project_cpu.sim/sim_1/synth/timing/xsim/tb_cpu_time_synth.v,1636734628,verilog,,,,alu;counter;datapath;glbl;reg_nbit;riscv_cpu,,,,,,,,
+D:/Files/CE409/Exercise/Processor/tb_cpu.sv,1636733005,systemVerilog,,,,tb_cpu,,,,,,,,

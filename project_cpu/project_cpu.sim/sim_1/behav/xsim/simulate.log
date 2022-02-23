@@ -1,0 +1,253 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+--- Start generate 35 instruction ---
+Packet:          0
+NOTE
+00000000000000101001001000010011
+Instruction:SLLI r 4, r 5,  0
+Check_Instruction:000000000000_00101_001_00100_0010011
+Packet:          1
+NOTE
+00000000000001000001010000010011
+Instruction:SLLI r 8, r 8,  0
+Check_Instruction:000000000000_01000_001_01000_0010011
+Packet:          2
+NOTE
+00000111000100011110000100010011
+Instruction:ORI r 2, r 3,  113
+Check_Instruction:000001110001_00011_110_00010_0010011
+Packet:          3
+NOTE
+01011000001001000100001010010011
+Instruction:XORI r 5, r 8, 1410
+Check_Instruction:010110000010_01000_100_00101_0010011
+Packet:          4
+NOTE
+00000001010100011001001100010011
+Instruction:SLLI r 6, r 3, 21
+Check_Instruction:000000010101_00011_001_00110_0010011
+Packet:          5
+NOTE
+10110000101000100000000100010011
+Instruction:ADDI r 2, r 4, 2826
+Check_Instruction:101100001010_00100_000_00010_0010011
+Packet:          6
+NOTE
+00000001000100100101000110010011
+Instruction: SRLI r 3, r 4, 17
+Check_Instruction:000000010001_00100_101_00011_0010011
+Packet:          7
+NOTE
+00000001001100001101001100010011
+Instruction: SRLI r 6, r 1, 19
+Check_Instruction:000000010011_00001_101_00110_0010011
+Packet:          8
+NOTE
+01001011001100011111001110010011
+Instruction:ANDI r 7, r 3, 1203
+Check_Instruction:010010110011_00011_111_00111_0010011
+Packet:          9
+NOTE
+00000000000100011000010000110011
+Instruction:ADD r 8, r 3, r 1
+Check_Instruction:0000000_00001_00011_000_01000_0110011
+Packet:         10
+NOTE
+00000000100001001001001000110011
+Instruction:SLL r 4, r 9, r 8
+Check_Instruction:0000000_01000_01001_001_00100_0110011
+Packet:         11
+NOTE
+00000000010000101111010010110011
+Instruction:AND r 9, r 5, r 4
+Check_Instruction:0000000_00100_00101_111_01001_0110011
+Packet:         12
+NOTE
+01000000100100101101000110110011
+Instruction:SRA r 3, r 5, r 9
+Check_Instruction:0100000_01001_00101_101_00011_0110011
+Packet:         13
+NOTE
+00000000001000011001001000110011
+Instruction:SLL r 4, r 3, r 2
+Check_Instruction:0000000_00010_00011_001_00100_0110011
+Packet:         14
+NOTE
+00000000010001001001000110110011
+Instruction:SLL r 3, r 9, r 4
+Check_Instruction:0000000_00100_01001_001_00011_0110011
+Packet:         15
+NOTE
+00000000010101000100001010110011
+Instruction:XOR r 5, r 8, r 5
+Check_Instruction:0000000_00101_01000_100_00101_0110011
+Packet:         16
+NOTE
+00000000001100110000001100110011
+Instruction:ADD r 6, r 6, r 3
+Check_Instruction:0000000_00011_00110_000_00110_0110011
+Packet:         17
+NOTE
+00000000010001000100001000110011
+Instruction:XOR r 4, r 8, r 4
+Check_Instruction:0000000_00100_01000_100_00100_0110011
+Packet:         18
+NOTE
+00000110111100000000000100100011
+Instruction:SB r5, 98(r0)
+Check_Instruction:0000011_01111_00000_000_00010_0100011
+Packet:         19
+NOTE
+00000011101100000000101110100011
+Instruction:SB r1, 55(r0)
+Check_Instruction:0000001_11011_00000_000_10111_0100011
+Packet:         20
+NOTE
+00001010010000000000101010100011
+Instruction:SB r9, 181(r0)
+Check_Instruction:0000101_00100_00000_000_10101_0100011
+Packet:         21
+NOTE
+00000000000000100000001110010111
+Instruction:AUIPC r7, 131072
+Check_Instruction:00000000000000100000_00111_0010111
+Packet:         22
+NOTE
+00000000000000100000001000010111
+Instruction:AUIPC r4, 131072
+Check_Instruction:00000000000000100000_00100_0010111
+Packet:         23
+NOTE
+00000001000000000000000101101111
+Instruction:JAL r2, 16
+Check_Instruction:00000001000000000000_00010_1101111
+Packet:         24
+NOTE
+00000000001001001101010001100011
+Instruction:BGE r9, r2, 8
+Check_Instruction:0000000_00010_01001_101_01000_1100011
+Packet:         25
+NOTE
+00000000000100101100010001100011
+Instruction:BLT r5, r1, 8
+Check_Instruction:0000000_00001_00101_100_01000_1100011
+Packet:         26
+NOTE
+00000000010000101111010001100011
+Instruction:BGEU r5, r4, 8
+Check_Instruction:0000000_00100_00101_111_01000_1100011
+Packet:         27
+NOTE
+00000000011000100100010001100011
+Instruction:BLT r4, r6, 8
+Check_Instruction:0000000_00110_00100_100_01000_1100011
+Packet:         28
+NOTE
+00000000100100101000010001100011
+Instruction:BEQ r5, r9, 8
+Check_Instruction:0000000_01001_00101_000_01000_1100011
+Packet:         29
+NOTE
+00000000100000000000000111100111
+Instruction:JALR r3, r0, 8
+Check_Instruction:000000001000_00000_000_00011_1100111
+Packet:         30
+NOTE
+00001000000100000000000100000011
+Instruction:LB r2, 129(r0)
+Check_Instruction:000010000001_00000_000_00010_0000011
+Packet:         31
+NOTE
+00001110101000000000001000000011
+Instruction:LB r4, 234(r0)
+Check_Instruction:000011101010_00000_000_00100_0000011
+Packet:         32
+NOTE
+00001011011100000100000100000011
+Instruction:LBU r2, 183(r0)
+Check_Instruction:000010110111_00000_100_00010_0000011
+Packet:         33
+NOTE
+00000001001000000101000010000011
+Instruction:LHU r1, 18(r0)
+Check_Instruction:000000010010_00000_101_00001_0000011
+Packet:         34
+NOTE
+00000000011000000100001110000011
+Instruction:LBU r7, 6(r0)
+Check_Instruction:000000000110_00000_100_00111_0000011
+Load instruction to DUT from inst_arr:          0
+End drive instruction          0
+Load instruction to DUT from inst_arr:          1
+End drive instruction          1
+Load instruction to DUT from inst_arr:          2
+End drive instruction          2
+Load instruction to DUT from inst_arr:          3
+End drive instruction          3
+Load instruction to DUT from inst_arr:          4
+End drive instruction          4
+Load instruction to DUT from inst_arr:          5
+End drive instruction          5
+Load instruction to DUT from inst_arr:          6
+End drive instruction          6
+Load instruction to DUT from inst_arr:          7
+End drive instruction          7
+Load instruction to DUT from inst_arr:          8
+End drive instruction          8
+Load instruction to DUT from inst_arr:          9
+End drive instruction          9
+Load instruction to DUT from inst_arr:         10
+End drive instruction         10
+Load instruction to DUT from inst_arr:         11
+End drive instruction         11
+Load instruction to DUT from inst_arr:         12
+End drive instruction         12
+Load instruction to DUT from inst_arr:         13
+End drive instruction         13
+Load instruction to DUT from inst_arr:         14
+End drive instruction         14
+Load instruction to DUT from inst_arr:         15
+End drive instruction         15
+Load instruction to DUT from inst_arr:         16
+End drive instruction         16
+Load instruction to DUT from inst_arr:         17
+End drive instruction         17
+Load instruction to DUT from inst_arr:         18
+End drive instruction         18
+Load instruction to DUT from inst_arr:         19
+End drive instruction         19
+Load instruction to DUT from inst_arr:         20
+End drive instruction         20
+Load instruction to DUT from inst_arr:         21
+End drive instruction         21
+Load instruction to DUT from inst_arr:         22
+End drive instruction         22
+Load instruction to DUT from inst_arr:         23
+End drive instruction         23
+Load instruction to DUT from inst_arr:         27
+End drive instruction         27
+Load instruction to DUT from inst_arr:         28
+End drive instruction         28
+Load instruction to DUT from inst_arr:         29
+End drive instruction         29
+Load instruction to DUT from inst_arr:          2
+End drive instruction          2
+Load instruction to DUT from inst_arr:          3
+End drive instruction          3
+Load instruction to DUT from inst_arr:          4
+End drive instruction          4
+Load instruction to DUT from inst_arr:          5
+End drive instruction          5
+Load instruction to DUT from inst_arr:          6
+End drive instruction          6
+Load instruction to DUT from inst_arr:          7
+End drive instruction          7
+Load instruction to DUT from inst_arr:          8
+End drive instruction          8
+Load instruction to DUT from inst_arr:          9
+End drive instruction          9
+Load instruction to DUT from inst_arr:         10
+End drive instruction         10
+Load instruction to DUT from inst_arr:         11
+End drive instruction         11
+$finish called at time : 375 ns : File "D:/Files/CE409/Exercise/Processor/test.sv" Line 11

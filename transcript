@@ -1,0 +1,37 @@
+# Compile of regfile.sv was successful.
+vsim -gui work.tb_rf
+# vsim -gui work.tb_rf 
+# Start time: 08:38:53 on Nov 13,2021
+# Loading sv_std.std
+# Loading work.tb_rf
+# Loading work.regfile
+add wave sim:/tb_rf/*
+run -all
+# ** Note: $stop    : D:/Files/CE409/Exercise/Processor/regfile.sv(50)
+#    Time: 340 ns  Iteration: 0  Instance: /tb_rf
+# Break in Module tb_rf at D:/Files/CE409/Exercise/Processor/regfile.sv line 50
+vsim -gui work.tb_cpu
+# End time: 08:40:50 on Nov 13,2021, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_cpu 
+# Start time: 08:40:50 on Nov 13,2021
+# Loading sv_std.std
+# Loading work.tb_cpu
+# Loading work.riscv_cpu
+# Loading work.datapath
+# Loading work.reg_nbit
+# Loading work.counter
+# Loading work.imem
+# Loading work.regfile
+# Loading work.ImmGen
+# Loading work.BranchComp
+# Loading work.alu
+# Loading work.dmem
+# Loading work.controller_sv_unit
+# Loading work.controller
+add wave sim:/tb_cpu/*
+run -all
+# ** Note: $stop    : D:/Files/CE409/Exercise/Processor/tb_cpu.sv(12)
+#    Time: 220 ns  Iteration: 0  Instance: /tb_cpu
+# Break in Module tb_cpu at D:/Files/CE409/Exercise/Processor/tb_cpu.sv line 12
+add wave -position insertpoint sim:/tb_cpu/#INITIAL#7/*

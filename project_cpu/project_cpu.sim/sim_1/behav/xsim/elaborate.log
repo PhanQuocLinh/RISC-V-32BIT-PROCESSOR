@@ -1,0 +1,30 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 849a074455f441ff89132fb9138911b3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot yourcpu_test_top_behav xil_defaultlib.yourcpu_test_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3597] non-void function 'display' called as a task without void casting [D:/Files/CE409/Exercise/Processor/test.sv:124]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Files/CE409/Exercise/Processor/ImmGen.sv" Line 1. Module ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Files/CE409/Exercise/Processor/BranchComp.sv" Line 1. Module BranchComp doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_BranchComp_sv
+Compiling module xil_defaultlib.cb
+Compiling module xil_defaultlib.yourcpu_io
+Compiling module xil_defaultlib.program_test
+Compiling module xil_defaultlib.reg_nbit
+Compiling module xil_defaultlib.add_4
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.BranchComp
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.riscv_cpu
+Compiling module xil_defaultlib.yourcpu_test_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot yourcpu_test_top_behav
